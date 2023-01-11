@@ -10,8 +10,8 @@ import net.minecraft.util.Identifier;
 import net.redfox.arcanemastery.ArcaneMastery;
 
 public class ModItems {
-    public static final Item FIRE_CRYSTAL = registerItem("fire_crystal",new Item(new Item.Settings()),ItemGroups.INGREDIENTS);
-    public static final Item ICE_CRYSTAL = registerItem("ice_crystal",new Item(new Item.Settings()),ItemGroups.INGREDIENTS);
+    public static final Item FIRE_CRYSTAL = registerItem("fire_crystal",new Item(new Item.Settings()),ModItemGroup.ARCANE_MASTERY);
+    public static final Item ICE_CRYSTAL = registerItem("ice_crystal",new Item(new Item.Settings()),ModItemGroup.ARCANE_MASTERY);
     private static Item registerItem(String name, Item item, ItemGroup group) {
         return Registry.register(Registries.ITEM, new Identifier(ArcaneMastery.MOD_ID, name), item);
     }
