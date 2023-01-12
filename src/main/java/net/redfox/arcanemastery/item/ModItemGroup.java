@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 import net.redfox.arcanemastery.ArcaneMastery;
 
 public class ModItemGroup {
-    public static final ItemGroup ARCANE_MASTERY = FabricItemGroup.builder(new Identifier(ArcaneMastery.MOD_ID, "Arcane Mastery")).icon(() -> new ItemStack(ModItems.FIRE_CRYSTAL)).build();
+    public static final ItemGroup ARCANE_MASTERY = FabricItemGroup.builder(new Identifier(ArcaneMastery.MOD_ID, "arcane_mastery")).icon(() -> new ItemStack(ModItems.FIRE_CRYSTAL)).build();
 }
