@@ -1,4 +1,8 @@
 {
   "item.arcanemastery.fire_crystal": "Fire Crystal",
-  "item.arcanemastery.ice_crystal": "Ice Crystal"
+  "item.arcanemastery.ice_crystal": "Ice Crystal",
+
+  "block.arcanemastery.fire_crystal_block": "Fire Crystal Block",
+
+  "itemGroup.arcanemastery.ArcaneMastery": "Arcane Mastery"
 }

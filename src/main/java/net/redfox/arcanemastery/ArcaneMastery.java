@@ -1,6 +1,7 @@
 package net.redfox.arcanemastery;
 
 import net.fabricmc.api.ModInitializer;
+import net.redfox.arcanemastery.block.ModBlocks;
 import net.redfox.arcanemastery.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,5 +12,6 @@ public class ArcaneMastery implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
