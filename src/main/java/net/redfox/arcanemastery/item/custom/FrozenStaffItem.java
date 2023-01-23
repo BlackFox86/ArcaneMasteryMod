@@ -18,6 +18,7 @@ public class FrozenStaffItem extends Item {
     public ActionResult useOnEntity(ItemStack stack, PlayerEntity user, LivingEntity entity, Hand hand) {
         if(hand == Hand.MAIN_HAND) {
             entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 9));
+            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 200, 9));
             entity.damage(DamageSource.MAGIC,10);
             user.getItemCooldownManager().set(this, 400);
         }
