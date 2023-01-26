@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["##","##"],
+  "key": {
+    "#": {"item": "arcanemastery:ice_crystal"}
+  },
+  "result": {"item": "arcanemastery:ice_crystal_block"}
+}

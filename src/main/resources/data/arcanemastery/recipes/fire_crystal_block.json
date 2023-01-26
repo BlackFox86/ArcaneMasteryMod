@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["##","##"],
+  "key": {
+    "#": {"item": "arcanemastery:fire_crystal"}
+  },
+  "result": {"item": "arcanemastery:fire_crystal_block"}
+}

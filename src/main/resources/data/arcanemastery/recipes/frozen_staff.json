@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" #X"," Y#","Y  "],
+  "key": {
+    "#": {"item": "arcanemastery:ice_crystal_block"},
+    "X": {"item": "arcanemastery:ice_crystal"},
+    "Y": {"item": "minecraft:stick"}
+  },
+  "result": {"item": "arcanemastery:frozen_staff"}
+}
