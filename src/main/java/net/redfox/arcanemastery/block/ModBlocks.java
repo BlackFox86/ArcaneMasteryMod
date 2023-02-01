@@ -17,6 +17,7 @@ import net.redfox.arcanemastery.item.ModItemGroup;
 public class ModBlocks {
     public static final Block FIRE_CRYSTAL_BLOCK = registerBlock("fire_crystal_block", new Block(FabricBlockSettings.of(Material.AMETHYST).luminance(7).strength(2f).requiresTool()), ModItemGroup.ARCANE_MASTERY);
     public static final Block ICE_CRYSTAL_BLOCK = registerBlock("ice_crystal_block", new Block(FabricBlockSettings.of(Material.AMETHYST).luminance(7).strength(2f).requiresTool()), ModItemGroup.ARCANE_MASTERY);
+    public static final Block FIRE_LANTERN = registerBlock("fire_lantern", new Block(FabricBlockSettings.of(Material.METAL).luminance(15).strength(2f).requiresTool()), ModItemGroup.ARCANE_MASTERY);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         RegisterBlockItem(name, block, tab);
