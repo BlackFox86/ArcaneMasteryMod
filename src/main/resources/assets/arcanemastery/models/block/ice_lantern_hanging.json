@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_hanging_lantern",
   "textures": {
-    "lantern": "arcanemastery:block/fire_lantern"
+    "lantern": "arcanemastery:block/ice_lantern"
   }
 }

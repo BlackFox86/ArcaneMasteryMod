@@ -1,10 +1,10 @@
 {
   "variants": {
     "hanging=false": {
-      "model": "minecraft:block/fire_lantern"
+      "model": "arcanemastery:block/fire_lantern"
     },
     "hanging=true": {
-      "model": "minecraft:block/fire_lantern_hanging"
+      "model": "arcanemastery:block/fire_lantern_hanging"
     }
   }
 }

@@ -1,7 +1,9 @@
 {
-  "replace": "false",
+  "replace": false,
   "values": [
     "arcanemastery:fire_crystal_block",
-    "arcanemastery:ice_crystal_block"
+    "arcanemastery:ice_crystal_block",
+    "arcanemastery:fire_lantern",
+    "arcanemastery:ice_lantern"
   ]
 }

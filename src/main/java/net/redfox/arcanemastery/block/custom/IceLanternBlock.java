@@ -2,9 +2,9 @@ package net.redfox.arcanemastery.block.custom;
 
 import net.minecraft.block.LanternBlock;
 
-public class FireLanternBlock extends LanternBlock {
+public class IceLanternBlock extends LanternBlock {
 
-    public FireLanternBlock(Settings settings) {
+    public IceLanternBlock(Settings settings) {
         super(settings);
     }
 }

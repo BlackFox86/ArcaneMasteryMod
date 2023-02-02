@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "arcanemastery:block/ice_lantern"
+    },
+    "hanging=true": {
+      "model": "arcanemastery:block/ice_lantern_hanging"
+    }
+  }
+}

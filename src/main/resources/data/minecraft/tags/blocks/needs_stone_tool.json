@@ -1,6 +1,7 @@
 {
-  "replace": "false",
+  "replace": false,
   "values": [
-    
+    "arcanemastery:fire_lantern",
+    "arcanemastery:ice_lantern"
   ]
 }
